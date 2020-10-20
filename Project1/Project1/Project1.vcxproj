@@ -153,6 +153,7 @@
     <ClInclude Include="GameL\WinInputs.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="Objwin.h" />
+    <ClInclude Include="SceneTitle.h" />
     <ClInclude Include="winscene.h" />
   </ItemGroup>
   <ItemGroup>
@@ -170,6 +171,7 @@
     <ClCompile Include="GameL\UserData.cpp" />
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="Objwin.cpp" />
+    <ClCompile Include="SceneTitle.cpp" />
     <ClCompile Include="winscene.cpp" />
   </ItemGroup>
   <ItemGroup>
