@@ -10,7 +10,7 @@
 using namespace GameL;
 
 //使用ヘッダー
-#include "Winscene.h"
+#include "winscene.h"
 #include"GameHead.h"
 
 //コンストラクタ
