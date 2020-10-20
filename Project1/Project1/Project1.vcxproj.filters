@@ -63,6 +63,9 @@
     <ClInclude Include="GameL\WinInputs.h">
       <Filter>ソース ファイル\リソース</Filter>
     </ClInclude>
+    <ClInclude Include="Objwin.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="winscene.cpp">
@@ -106,6 +109,9 @@
     </ClCompile>
     <ClCompile Include="GameL\WinInputs.cpp">
       <Filter>ソース ファイル\リソース</Filter>
+    </ClCompile>
+    <ClCompile Include="Objwin.cpp">
+      <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
