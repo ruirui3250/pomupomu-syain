@@ -32,6 +32,10 @@ void CSceneWin::InitScene()
 	Font::SetStrTex(L"You Win!");
 	Font::SetStrTex(L"エンターキーでタイトルに戻る。");
 
+	//クリアオブジェクト登録
+	CObjWin* obj = new CObjWin();//クリアオブジェクト作成
+	Objs::InsertObj(obj, OBJ_WIN, 10);//クリアオブジェクト登録
+
 }
 
 //実行メソッド

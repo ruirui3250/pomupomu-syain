@@ -1,0 +1,25 @@
+﻿  Audio.cpp
+C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\GameL\Audio.cpp(357,60): warning C4267: '初期化中': 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\GameL\Audio.cpp(357,60): warning C4267: '初期化中': 'size_t' から 'const unsigned int' に変換しました。データが失われているかもしれません。
+  DirectXDevice.cpp
+  Draw2DTex_Source.cpp
+  DrawFont.cpp
+  DrawTexture.cpp
+  GameL_Main.cpp
+  HitBoxManager.cpp
+C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\GameL\HitBoxManager.cpp(348,11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\GameL\HitBoxManager.cpp(357,15): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  MultiThread.cpp
+  SceneManager.cpp
+  SceneObjManager.cpp
+  SetWindow.cpp
+  UserData.cpp
+  WinInputs.cpp
+  Objwin.cpp
+C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\Objwin.cpp(25,35): error C2061: 構文エラー: 識別子 'CSceneTitle'
+  winscene.cpp
+C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\GameL\SceneObjManager.h(4,1): warning C4005: '_SECURE_SCL': マクロが再定義されました。
+C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\winscene.cpp(2): message : '_SECURE_SCL' の以前の定義を確認してください
+C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\GameL\SceneObjManager.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
+C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\winscene.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
+  コードを生成中...
