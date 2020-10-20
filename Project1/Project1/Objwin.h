@@ -7,6 +7,7 @@ using namespace GameL;
 //オブジェクトクリア
 class CObjWin :public CObj
 {
+public:
 	CObjWin() {};
 	~CObjWin() {};
 	void Init();//イニシャライズ
