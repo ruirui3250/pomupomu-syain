@@ -5,6 +5,7 @@
 //GameL使用するヘッダー
 #include "GameL\SceneObjManager.h"
 #include "GameL\DrawFont.h"
+#include"GameL\DrawTexture.h"
 
 //使用するネームスペース
 using namespace GameL;
@@ -29,6 +30,8 @@ CSceneWin::~CSceneWin()
 //文字の登録
 void CSceneWin::InitScene()
 {
+	//外部グラフィック読み込み登録0番
+	Draw::LoadImage(L"virus.png",0,TEX_SIZE_512);
 	Font::SetStrTex(L"You Win!");
 	Font::SetStrTex(L"エンターキーでタイトルに戻る。");
 
