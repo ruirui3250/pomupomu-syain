@@ -55,9 +55,10 @@ struct UserData
 
 //ゲームシーンクラスヘッダ------------------------
 #include"winscene.h"
+#include"SceneTitle.h"
 //-----------------------------------------------
 
 //シーンスタートクラス---------------------------
 //ゲーム開始時のシーンクラス登録
-#define SET_GAME_START CSceneWin  
+#define SET_GAME_START CSceneTitle 
 //-----------------------------------------------
