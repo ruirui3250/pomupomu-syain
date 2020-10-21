@@ -46,14 +46,14 @@ void CObjWin::Draw()
 	//切り取り位置
 	src.m_top =0.0f;
 	src.m_left = 0.0f;
-	src.m_right = 512.0f;
-	src.m_bottom = 512.0f;
+	src.m_right = 100.0f;
+	src.m_bottom = 100.0f;
 
 	//表示位置の設定
 	dst.m_top = 0.0f;
 	dst.m_left = 0.0f;
-	dst.m_right = 512.0f;
-	dst.m_bottom = 512.0f;
+	dst.m_right = 100.0f;
+	dst.m_bottom = 100.0f;
 
 	//フォントの表示
 	Font::StrDraw(L"You Win!", 270, 200, 50, c);
