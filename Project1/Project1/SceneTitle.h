@@ -8,10 +8,10 @@ using namespace GameL;
 //シーン：ゲームタイトル
 class CSceneTitle :public CScene
 {
-	public :
-		CSceneTitle();
-		~CSceneTitle();
-		void InitScene();
-		void Scene();
-	private:
+public:
+	CSceneTitle();
+	~CSceneTitle();
+	void InitScene();
+	void Scene();
+private:
 };

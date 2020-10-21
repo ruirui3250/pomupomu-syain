@@ -31,7 +31,7 @@ CSceneWin::~CSceneWin()
 void CSceneWin::InitScene()
 {
 	//外部グラフィック読み込み登録0番
-	Draw::LoadImage(L"virusclear.png",0,TEX_SIZE_512);
+	Draw::LoadImage(L"virusclear.png", 0, TEX_SIZE_512);
 	Font::SetStrTex(L"You Win!");
 	Font::SetStrTex(L"エンターキーでタイトルに戻る。");
 

@@ -13,8 +13,7 @@ using namespace GameL;
 #include "GameHead.h"
 
 //コントラクタ
-CSceneTitle
-::CSceneTitle()
+CSceneTitle::CSceneTitle()
 {
 
 }
@@ -31,3 +30,8 @@ void CSceneTitle::InitScene()
 
 }
 
+//ゲームメイン実行中メソッド
+void CSceneTitle::Scene()
+{
+
+}
