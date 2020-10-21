@@ -52,7 +52,7 @@ void CObjWin::Draw()
 	//表示位置の設定
 	dst.m_top = 0.0f;
 	dst.m_left = 0.0f;
-	dst.m_right = 99.0f;
+	dst.m_right = 100.0f;
 	dst.m_bottom = 100.0f;
 
 	//フォントの表示
