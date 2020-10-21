@@ -139,6 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="clearback.h" />
+    <ClInclude Include="clearvirus.h" />
     <ClInclude Include="GameHead.h" />
     <ClInclude Include="GameL\Audio.h" />
     <ClInclude Include="GameL\DirectXDevice.h" />
@@ -159,6 +161,8 @@
     <ClInclude Include="winscene.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="clearback.cpp" />
+    <ClCompile Include="clearvirus.cpp" />
     <ClCompile Include="GameL\Audio.cpp" />
     <ClCompile Include="GameL\DirectXDevice.cpp" />
     <ClCompile Include="GameL\Draw2DTex_Source.cpp" />
