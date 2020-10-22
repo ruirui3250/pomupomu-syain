@@ -1,17 +1,8 @@
-﻿  GameL_Main.cpp
-  HitBoxManager.cpp
-C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\GameL\HitBoxManager.cpp(348,11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\GameL\HitBoxManager.cpp(357,15): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-  Objwin.cpp
-  SceneTitle.cpp
-C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\GameL\SceneObjManager.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
-C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\SceneTitle.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
+﻿  ObjTitle.cpp
+C:\Users\GA4\Desktop\ゲーム開発総合\Project1\Project1\ObjTitle.cpp(26,34): error C2061: 構文エラー: 識別子 'CSceneMain'
   winscene.cpp
-C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\GameL\SceneObjManager.h(4,1): warning C4005: '_SECURE_SCL': マクロが再定義されました。
-C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\winscene.cpp(2): message : '_SECURE_SCL' の以前の定義を確認してください
-C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\GameL\SceneObjManager.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
-C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Project1\winscene.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
+C:\Users\GA4\Desktop\ゲーム開発総合\Project1\Project1\GameL\SceneObjManager.h(4,1): warning C4005: '_SECURE_SCL': マクロが再定義されました。
+C:\Users\GA4\Desktop\ゲーム開発総合\Project1\Project1\winscene.cpp(2): message : '_SECURE_SCL' の以前の定義を確認してください
+C:\Users\GA4\Desktop\ゲーム開発総合\Project1\Project1\GameL\SceneObjManager.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
+C:\Users\GA4\Desktop\ゲーム開発総合\Project1\Project1\winscene.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
   コードを生成中...
-SceneTitle.obj : error LNK2001: 外部シンボル "public: virtual void __thiscall CSceneTitle::Scene(void)" (?Scene@CSceneTitle@@UAEXXZ) は未解決です
-MSVCRTD.lib(exe_main.obj) : error LNK2019: 未解決の外部シンボル _main が関数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) で参照されました
-C:\Users\GA1A\Desktop\新しいフォルダー\Project1\Debug\Project1.exe : fatal error LNK1120: 2 件の未解決の外部参照
