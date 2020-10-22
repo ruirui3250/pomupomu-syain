@@ -161,6 +161,7 @@
     <ClInclude Include="winscene.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="blockfeblin.cpp" />
     <ClCompile Include="clearback.cpp" />
     <ClCompile Include="clearvirus.cpp" />
     <ClCompile Include="GameL\Audio.cpp" />

@@ -413,5 +413,8 @@
     <ClCompile Include="winscene.cpp">
       <Filter>ソース ファイル\クリア画面</Filter>
     </ClCompile>
+    <ClCompile Include="blockfeblin.cpp">
+      <Filter>ソース ファイル\障害物関連</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
