@@ -25,6 +25,9 @@
     <Filter Include="ソース ファイル\オブジェクト障害物">
       <UniqueIdentifier>{850fd373-6169-4805-b9b2-2dd5d35bae0a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\タイトル画面">
+      <UniqueIdentifier>{ce77f51c-517b-42f0-b149-c10ee319f4d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameL\Audio.h">
@@ -225,9 +228,6 @@
     <ClInclude Include="main.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="SceneTitle.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="GameHead.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
@@ -315,6 +315,9 @@
     <ClInclude Include="Objwin.h">
       <Filter>ソース ファイル\クリア画面</Filter>
     </ClInclude>
+    <ClInclude Include="winscene.h">
+      <Filter>ソース ファイル\クリア画面</Filter>
+    </ClInclude>
     <ClInclude Include="GameHead.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
@@ -354,11 +357,92 @@
     <ClInclude Include="main.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="winscene.h">
-      <Filter>ソース ファイル\クリア画面</Filter>
-    </ClInclude>
     <ClInclude Include="blockfeblin.h">
       <Filter>ソース ファイル\オブジェクト障害物</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHead.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\Audio.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DirectXDevice.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawFont.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawTexture.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\HitBoxManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\MultiThread.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SceneManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SceneObjManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SetWindow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\UserData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\WinInputs.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHead.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\Audio.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DirectXDevice.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawFont.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawTexture.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\HitBoxManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\MultiThread.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SceneManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SceneObjManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SetWindow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\UserData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\WinInputs.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjTitle.h">
+      <Filter>ソース ファイル\タイトル画面</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle.h">
+      <Filter>ソース ファイル\タイトル画面</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -401,8 +485,8 @@
     <ClCompile Include="GameL\WinInputs.cpp">
       <Filter>ソース ファイル\リソース</Filter>
     </ClCompile>
-    <ClCompile Include="SceneTitle.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="clearback.cpp">
+      <Filter>ソース ファイル\クリア画面</Filter>
     </ClCompile>
     <ClCompile Include="clearvirus.cpp">
       <Filter>ソース ファイル\クリア画面</Filter>
@@ -413,11 +497,14 @@
     <ClCompile Include="winscene.cpp">
       <Filter>ソース ファイル\クリア画面</Filter>
     </ClCompile>
-    <ClCompile Include="clearback.cpp">
-      <Filter>ソース ファイル\クリア画面</Filter>
-    </ClCompile>
     <ClCompile Include="blockfeblin.cpp">
       <Filter>ソース ファイル\オブジェクト障害物</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjTitle.cpp">
+      <Filter>ソース ファイル\タイトル画面</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle.cpp">
+      <Filter>ソース ファイル\タイトル画面</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
