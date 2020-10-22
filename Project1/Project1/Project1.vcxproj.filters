@@ -22,7 +22,7 @@
     <Filter Include="ソース ファイル\クリア画面">
       <UniqueIdentifier>{65b8edd6-e0e2-4122-97f1-b99dd8aebd38}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\障害物関連">
+    <Filter Include="ソース ファイル\オブジェクト障害物">
       <UniqueIdentifier>{850fd373-6169-4805-b9b2-2dd5d35bae0a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -357,6 +357,9 @@
     <ClInclude Include="main.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="blockfeblin.h">
+      <Filter>ソース ファイル\オブジェクト障害物</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp">
@@ -414,7 +417,7 @@
       <Filter>ソース ファイル\クリア画面</Filter>
     </ClCompile>
     <ClCompile Include="blockfeblin.cpp">
-      <Filter>ソース ファイル\障害物関連</Filter>
+      <Filter>ソース ファイル\オブジェクト障害物</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

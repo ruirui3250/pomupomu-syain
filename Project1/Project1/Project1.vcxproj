@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="blockfeblin.h" />
     <ClInclude Include="clearback.h" />
     <ClInclude Include="clearvirus.h" />
     <ClInclude Include="GameHead.h" />
