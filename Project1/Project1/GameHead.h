@@ -9,6 +9,7 @@ enum OBJ_NAME
 	OBJ_WIN,
 	OBJ_CLEAR_BACK,
 	OBJ_CLEAR_VIRUS,
+	OBJ_BLOCKFEBLIN,
 };
 //------------------------------------------------
 
@@ -55,6 +56,7 @@ struct UserData
 #include "Objwin.h"
 #include "clearback.h"//Obj忘れた許して
 #include"clearvirus.h"
+#include"blockfeblin.h"
 //------------------------------------------------
 
 //ゲームシーンクラスヘッダ------------------------

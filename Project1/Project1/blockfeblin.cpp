@@ -12,7 +12,7 @@ using namespace GameL;
 //イニシャライズ
 void CObjBlockfeblin::Init()
 {
-	int block_data[10][10] =
+	int blockfeblin_data[10][10] =
 	{
 		{0,0,0,0,1,1,1,0,0,0},
 		{0,0,0,0,1,1,1,0,0,0},
@@ -25,6 +25,8 @@ void CObjBlockfeblin::Init()
 		{0,0,0,0,1,1,1,0,0,0},
 		{0,0,0,0,1,1,1,0,0,0},
 	};
+	//マップデータコピー
+	memcpy(m_map, blockfeblin_data, sizeof(int) * (10 * 10));
 
 }
 //アクション
