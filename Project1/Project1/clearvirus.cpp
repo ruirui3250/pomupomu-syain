@@ -31,8 +31,8 @@ void CObjClearvirus::Draw()
 	//Ø‚èæ‚èˆÊ’u
 	src.m_top = 0.0f;
 	src.m_left = 0.0f;
-	src.m_right = 300.0f;
-	src.m_bottom = 250.0f;
+	src.m_right = 512.0f;
+	src.m_bottom = 512.0f;
 
 	//•\¦ˆÊ’u‚Ìİ’è
 	dst.m_top = 0.0f;

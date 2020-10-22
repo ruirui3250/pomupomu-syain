@@ -41,6 +41,8 @@ void CSceneWin::InitScene()
 	//クリアオブジェクト登録
 	CObjWin* obj = new CObjWin();//クリアオブジェクト作成
 	Objs::InsertObj(obj, OBJ_WIN, 10);//クリアオブジェクト登録
+
+
 		//クリア時背景オブジェクト作成
 	CObjClearback* back = new CObjClearback();
 	Objs::InsertObj(back, OBJ_CLEAR_BACK, 0);

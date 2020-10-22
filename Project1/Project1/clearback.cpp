@@ -1,7 +1,6 @@
 //使用するヘッダーファイル
 #include "GameL\DrawTexture.h"
 #include "GameHead.h"
-
 #include"clearback.h"
 
 //使用するネームスペース
@@ -31,8 +30,8 @@ void CObjClearback::Draw()
 	//切り取り位置
 	src.m_top = 0.0f;
 	src.m_left = 0.0f;
-	src.m_right = 800.0f;
-	src.m_bottom = 600.0f;
+	src.m_right = 512.0f;
+	src.m_bottom = 512.0f;
 
 	//表示位置の設定
 	dst.m_top = 0.0f;
@@ -41,6 +40,6 @@ void CObjClearback::Draw()
 	dst.m_bottom = 600.0f;
 
 	//画像表示
-	Draw::Draw(1, &src, &dst, c, 0.0f);
+	Draw::Draw(0, &src, &dst, c, 0.0f);
 
 }

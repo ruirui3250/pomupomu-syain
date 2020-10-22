@@ -15,5 +15,5 @@ public:
 	void Draw();//ドロー
 private:
 	//マップ情報
-	int blockfeblin_data[10][9];
+	int blockfeblin_data[10][10];
 };

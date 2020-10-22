@@ -8,7 +8,7 @@ enum OBJ_NAME
 	//OBJ_○○と表記
 	OBJ_WIN,
 	OBJ_CLEAR_BACK,
-	OBJ_CLEAR_VIRUS
+	OBJ_CLEAR_VIRUS,
 };
 //------------------------------------------------
 
@@ -64,5 +64,5 @@ struct UserData
 
 //シーンスタートクラス---------------------------
 //ゲーム開始時のシーンクラス登録
-#define SET_GAME_START CSceneTitle 
+#define SET_GAME_START CSceneTitle
 //-----------------------------------------------

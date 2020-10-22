@@ -315,9 +315,6 @@
     <ClInclude Include="Objwin.h">
       <Filter>ソース ファイル\クリア画面</Filter>
     </ClInclude>
-    <ClInclude Include="winscene.h">
-      <Filter>ソース ファイル\クリア画面</Filter>
-    </ClInclude>
     <ClInclude Include="GameHead.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
@@ -356,6 +353,9 @@
     </ClInclude>
     <ClInclude Include="main.h">
       <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="winscene.h">
+      <Filter>ソース ファイル\クリア画面</Filter>
     </ClInclude>
     <ClInclude Include="blockfeblin.h">
       <Filter>ソース ファイル\オブジェクト障害物</Filter>
@@ -404,9 +404,6 @@
     <ClCompile Include="SceneTitle.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="clearback.cpp">
-      <Filter>ソース ファイル\クリア画面</Filter>
-    </ClCompile>
     <ClCompile Include="clearvirus.cpp">
       <Filter>ソース ファイル\クリア画面</Filter>
     </ClCompile>
@@ -414,6 +411,9 @@
       <Filter>ソース ファイル\クリア画面</Filter>
     </ClCompile>
     <ClCompile Include="winscene.cpp">
+      <Filter>ソース ファイル\クリア画面</Filter>
+    </ClCompile>
+    <ClCompile Include="clearback.cpp">
       <Filter>ソース ファイル\クリア画面</Filter>
     </ClCompile>
     <ClCompile Include="blockfeblin.cpp">
