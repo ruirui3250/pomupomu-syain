@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="blockfeblin.h" />
     <ClInclude Include="clearback.h" />
     <ClInclude Include="clearvirus.h" />
     <ClInclude Include="GameHead.h" />
@@ -163,7 +162,6 @@
     <ClInclude Include="winscene.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="blockfeblin.cpp" />
     <ClCompile Include="clearback.cpp" />
     <ClCompile Include="clearvirus.cpp" />
     <ClCompile Include="GameL\Audio.cpp" />
