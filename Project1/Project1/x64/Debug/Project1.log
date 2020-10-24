@@ -1,4 +1,13 @@
-﻿  clearback.cpp
-  clearvirus.cpp
+﻿  ObjTitle.cpp
+  Objwin.cpp
+  winscene.cpp
+C:\Users\souhu\Desktop\game\Project1\Project1\GameL\SceneObjManager.h(4,1): warning C4005: '_SECURE_SCL': マクロが再定義されました。
+C:\Users\souhu\Desktop\game\Project1\Project1\winscene.cpp(2): message : '_SECURE_SCL' の以前の定義を確認してください
+C:\Users\souhu\Desktop\game\Project1\Project1\GameL\SceneObjManager.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
+C:\Users\souhu\Desktop\game\Project1\Project1\winscene.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
   コードを生成中...
-  Project1.vcxproj -> C:\Users\GA4\Desktop\pompom\Project1\x64\Debug\Project1.exe
+  SceneTitle.cpp
+C:\Users\souhu\Desktop\game\Project1\Project1\GameL\SceneObjManager.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
+C:\Users\souhu\Desktop\game\Project1\Project1\SceneTitle.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
+  LINK : 前回のインクリメンタル リンクで C:\Users\souhu\Desktop\game\Project1\x64\Debug\Project1.exe が見つからなかったか、ビルドされませんでした。フル リンクを行います。
+  Project1.vcxproj -> C:\Users\souhu\Desktop\game\Project1\x64\Debug\Project1.exe
