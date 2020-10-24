@@ -303,12 +303,6 @@
     <ClInclude Include="main.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="clearback.h">
-      <Filter>ソース ファイル\クリア画面</Filter>
-    </ClInclude>
-    <ClInclude Include="clearvirus.h">
-      <Filter>ソース ファイル\クリア画面</Filter>
-    </ClInclude>
     <ClInclude Include="Objwin.h">
       <Filter>ソース ファイル\クリア画面</Filter>
     </ClInclude>
@@ -477,6 +471,51 @@
     <ClInclude Include="main.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="GameHead.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\Audio.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DirectXDevice.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawFont.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawTexture.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\HitBoxManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\MultiThread.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SceneManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SceneObjManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SetWindow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\UserData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\WinInputs.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjClearVirus.h">
+      <Filter>ソース ファイル\クリア画面</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjClearBack.h">
+      <Filter>ソース ファイル\クリア画面</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp">
@@ -518,12 +557,6 @@
     <ClCompile Include="GameL\WinInputs.cpp">
       <Filter>ソース ファイル\リソース</Filter>
     </ClCompile>
-    <ClCompile Include="clearback.cpp">
-      <Filter>ソース ファイル\クリア画面</Filter>
-    </ClCompile>
-    <ClCompile Include="clearvirus.cpp">
-      <Filter>ソース ファイル\クリア画面</Filter>
-    </ClCompile>
     <ClCompile Include="Objwin.cpp">
       <Filter>ソース ファイル\クリア画面</Filter>
     </ClCompile>
@@ -535,6 +568,12 @@
     </ClCompile>
     <ClCompile Include="SceneTitle.cpp">
       <Filter>ソース ファイル\タイトル画面</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjClearVirus.cpp">
+      <Filter>ソース ファイル\クリア画面</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjClearBack.cpp">
+      <Filter>ソース ファイル\クリア画面</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

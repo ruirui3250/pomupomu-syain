@@ -53,8 +53,8 @@ struct UserData
 
 //ゲームシーンオブジェクトヘッダ------------------
 #include "Objwin.h"
-#include "clearback.h"//Obj忘れた許して
-#include"clearvirus.h"
+#include "ObjClearBack.h"
+#include"ObjClearVirus.h"
 //------------------------------------------------
 
 //ゲームシーンクラスヘッダ------------------------

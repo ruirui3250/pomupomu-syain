@@ -2,7 +2,7 @@
 #include "GameL\DrawTexture.h"
 #include "GameHead.h"
 
-#include"clearvirus.h"
+#include"ObjClearVirus.h"
 
 //使用するネームスペース
 using namespace GameL;
