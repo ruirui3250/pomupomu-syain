@@ -37,6 +37,10 @@ void CSceneMain::InitScene()
 	//CObjHero*=obj=new CObjHero();//主人公オブジェクト作成
 	//Objs::InsertObj(obj,OBJ_HERO,1);//主人公オブジェクトマネージャーを登録
 
+		//クリア時背景オブジェクト作成
+	CObjSceneMain* back = new CObjSceneMain();
+	Objs::InsertObj(back, OBJ_SCENE_MAIN, 5);
+
 	//タイム初期化
 	m_time = 0;
 
