@@ -52,7 +52,7 @@ void CObjSceneMain::Draw()
 	//”wŒi‚P‚ğİ’è•`‰æ
 	dst.m_top = 0.0f;
 	dst.m_left = 0.0f + m_x1;
-	dst.m_right = 800.0f + m_x1;
+	dst.m_right = 1000.0f + m_x1;
 	dst.m_bottom = 600.0f;
 
 	//0”Ô–Ú‚É“o˜^‚µ‚½ƒOƒ‰ƒtƒBƒbƒN‚ğ•`‰æB
@@ -61,7 +61,7 @@ void CObjSceneMain::Draw()
 	//”wŒi2‚ğİ’è•`‰æ
 	dst.m_top = 0.0f;
 	dst.m_left = 0.0f + m_x2;
-	dst.m_right = 800.0f + m_x2;
+	dst.m_right = 1000.0f + m_x2;
 	dst.m_bottom = 600.0f;
 
 	//0”Ô–Ú‚É“o˜^‚µ‚½ƒOƒ‰ƒtƒBƒbƒN‚ğ•`‰æB
