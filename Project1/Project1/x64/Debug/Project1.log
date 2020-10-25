@@ -1,15 +1,2 @@
-﻿  GameL_Main.cpp
-  ObjClearBack.cpp
-  ObjClearVirus.cpp
-  ObjTitle.cpp
-  Objwin.cpp
-  winscene.cpp
-C:\Users\souhu\Desktop\game\Project1\Project1\GameL\SceneObjManager.h(4,1): warning C4005: '_SECURE_SCL': マクロが再定義されました。
-C:\Users\souhu\Desktop\game\Project1\Project1\winscene.cpp(2): message : '_SECURE_SCL' の以前の定義を確認してください
-C:\Users\souhu\Desktop\game\Project1\Project1\GameL\SceneObjManager.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
-C:\Users\souhu\Desktop\game\Project1\Project1\winscene.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
-  コードを生成中...
-  SceneTitle.cpp
-C:\Users\souhu\Desktop\game\Project1\Project1\GameL\SceneObjManager.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
-C:\Users\souhu\Desktop\game\Project1\Project1\SceneTitle.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
+﻿  ObjTitle.cpp
   Project1.vcxproj -> C:\Users\souhu\Desktop\game\Project1\x64\Debug\Project1.exe

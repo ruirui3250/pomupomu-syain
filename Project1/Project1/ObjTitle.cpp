@@ -41,6 +41,6 @@ void CObjTitle::Draw()
 
 
 	//フォントの表示
-	Font::StrDraw(L"バイラスクラッシュ", 270, 200, 50, c);
+	Font::StrDraw(L"バイラスクラッシュ", 180, 200, 50, c);
 	Font::StrDraw(L"エンターキーでゲームを始める", 170, 500, 30, c);
 }
