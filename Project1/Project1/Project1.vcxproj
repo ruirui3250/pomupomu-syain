@@ -154,8 +154,10 @@
     <ClInclude Include="main.h" />
     <ClInclude Include="ObjClearBack.h" />
     <ClInclude Include="ObjClearVirus.h" />
+    <ClInclude Include="ObjSceneMain.h" />
     <ClInclude Include="ObjTitle.h" />
     <ClInclude Include="Objwin.h" />
+    <ClInclude Include="SceneMain.h" />
     <ClInclude Include="SceneTitle.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClInclude>
@@ -177,8 +179,10 @@
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="ObjClearBack.cpp" />
     <ClCompile Include="ObjClearVirus.cpp" />
+    <ClCompile Include="ObjSceneMain.cpp" />
     <ClCompile Include="ObjTitle.cpp" />
     <ClCompile Include="Objwin.cpp" />
+    <ClCompile Include="SceneMain.cpp" />
     <ClCompile Include="SceneTitle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
