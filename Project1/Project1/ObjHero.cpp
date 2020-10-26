@@ -2,7 +2,7 @@
 #include "GameL\DrawTexture.h"
 #include "GameL\WinInputs.h"
 #include "GameHead.h"
-#include "objhero.h"
+#include "ObjHero.h"
 
 
 
@@ -32,5 +32,6 @@ void CObjHero::Draw()
 	dst.m_left = 0.0f;
 	dst.m_right = 32.0f;
 	dst.m_bottom = 32.0f;
+
 	Draw::Draw(0, &src, &dst, c, 0.0f);
 }

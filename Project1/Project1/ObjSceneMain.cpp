@@ -41,13 +41,13 @@ void CObjSceneMain::Draw()
 	src.m_bottom = 512.0f;
 
 	////•\¦ˆÊ’u‚Ìİ’è
-	//dst.m_top = 0.0f;
-	//dst.m_left = 0.0f;
-	//dst.m_right = 500.0f;
-	//dst.m_bottom = 500.0f;
+	dst.m_top = 0.0f;
+	dst.m_left = 0.0f;
+	dst.m_right = 500.0f;
+	dst.m_bottom = 500.0f;
 
 	////‰æ‘œ•\¦
-	//Draw::Draw(0, &src, &dst, c, 0.0f);
+	Draw::Draw(0, &src, &dst, c, 0.0f);
 
 	//”wŒi‚P‚ğİ’è•`‰æ
 	dst.m_top = 0.0f;
