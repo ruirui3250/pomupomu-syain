@@ -17,8 +17,6 @@ enum OBJ_NAME
 	OBJ_ENEMY,
 	OBJ_ATTACK_ENEMY,
 	OBJ_BULLET_ENEMY,
-	OBJ_SIN_ENEMY,
-	OBJ_BOSS_ENEMY,
 
 };
 //------------------------------------------------
