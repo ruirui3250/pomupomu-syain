@@ -12,4 +12,5 @@ public:
 	void Init();
 	void Action();
 	void Draw();
+private:
 };

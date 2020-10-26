@@ -69,7 +69,7 @@ struct UserData
 #include"winscene.h"
 #include"SceneTitle.h"
 #include"SceneMain.h"
-#include"ObjGameOver.h"
+#include"SceneGameOver.h"
 //-----------------------------------------------
 
 //シーンスタートクラス---------------------------

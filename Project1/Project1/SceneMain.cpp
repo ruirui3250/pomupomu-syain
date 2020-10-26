@@ -29,7 +29,10 @@ void CSceneMain::InitScene()
 {
 	//外部グラフィック読み込み0番  背景
 	Draw::LoadImage(L"SceneMain.png",0,TEX_SIZE_512);
-
+	//外部グラフィック読み込み１番 ゲームオーバー画面 
+	Draw::LoadImage(L"ゲームオーバー画面.png", 1, TEX_SIZE_512);
+	//外部グラフィック読み込み2番 主人公機 
+	Draw::LoadImage(L"主人公機.png", 2, TEX_SIZE_512);
 	//外部グラフィックファイルを読み込み1番に登録 ボスグラフィックを登録
 	//Draw::LoadImage(L"",1,TEX_SISE_512);
 
@@ -41,6 +44,8 @@ void CSceneMain::InitScene()
 	CObjSceneMain* back = new CObjSceneMain();
 	Objs::InsertObj(back, OBJ_SCENE_MAIN, 5);
 
+
+
 	//タイム初期化
 	m_time = 0;
 
@@ -49,8 +54,8 @@ void CSceneMain::InitScene()
 //ゲームシーン実行中メソッド
 void CSceneMain::Scene()
 {
-//	m_time++;
-//
+	m_time++;
+
 //	if (m_time == 30)
 //	{
 //		CObjEnemy* obj = new CObjEnemy(799.0f, 400);
