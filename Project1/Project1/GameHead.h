@@ -67,6 +67,16 @@ struct UserData
 #include"ObjClearVirus.h"
 #include"ObjTitle.h"
 #include"ObjSceneMain.h"
+#include"CObjBulletEnemy.h"
+//#include"CObjSinEnemy.h"
+#include"ObjAttackEnemy.h"
+#include"ObjClearBack.h"
+#include"ObjGameOver.h"
+#include"ObjSceneMain.h"
+#include"ObjHero.h"
+#include"ObjEnemy.h"
+
+
 //------------------------------------------------
 
 //ゲームシーンクラスヘッダ------------------------

@@ -822,6 +822,9 @@
     <ClInclude Include="main.h">
       <Filter>ソース ファイル\ヘッダー</Filter>
     </ClInclude>
+    <ClInclude Include="UtilityModule.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Objwin.cpp">
@@ -904,6 +907,9 @@
     </ClCompile>
     <ClCompile Include="GameL\GameL_Main.cpp">
       <Filter>ソース ファイル\リソース</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilityModule.cpp">
+      <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
