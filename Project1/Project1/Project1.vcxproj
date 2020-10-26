@@ -179,6 +179,7 @@
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="ObjClearBack.cpp" />
     <ClCompile Include="ObjClearVirus.cpp" />
+    <ClCompile Include="ObjGameOver.cpp" />
     <ClCompile Include="ObjSceneMain.cpp" />
     <ClCompile Include="ObjTitle.cpp" />
     <ClCompile Include="Objwin.cpp" />
