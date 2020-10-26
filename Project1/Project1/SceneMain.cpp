@@ -114,46 +114,46 @@ void CSceneMain::Scene()
 		obj = new CObjAttackEnemy(799, 300);
 		Objs::InsertObj(obj, OBJ_ATTACK_ENEMY, 50);
 	}
-	else if (m_time == 1000)
-	{
-		CObjSinEnemy* obj;
-		for (int i = 0; i < 15; i++)
-		{
-			obj = new CObjSinEnemy(799, i * 32);
-			Objs::InsertObj(obj, OBJ_SIN_ENEMY, 50);
-		}
-	}
-	else if (m_time == 1100)
-	{
-		CObjSinEnemy* obj;
-		for (int i = 0; i < 15; i++)
-		{
-			obj = new CObjSinEnemy(799, i * 32 + 64);
-			Objs::InsertObj(obj, OBJ_SIN_ENEMY, 50);
-		}
-	}
-	else if (m_time == 1200)
-	{
-		CObjSinEnemy* obj;
-		for (int i = 0; i < 15; i++)
-		{
-			obj = new CObjSinEnemy(799, i * 32);
-			Objs::InsertObj(obj, OBJ_SIN_ENEMY, 50);
-		}
-	}
-	else if (m_time == 1300)
-	{
-		CObjSinEnemy* obj;
-		for (int i = 0; i < 15; i++)
-		{
-			obj = new CObjSinEnemy(799, i * 32);
-			Objs::InsertObj(obj, OBJ_SIN_ENEMY, 50);
-		}
+	//else if (m_time == 1000)
+	//{
+	//	CObjSinEnemy* obj;
+	//	for (int i = 0; i < 15; i++)
+	//	{
+	//		obj = new CObjSinEnemy(799, i * 32);
+	//		Objs::InsertObj(obj, OBJ_SIN_ENEMY, 50);
+	//	}
+	//}
+	//else if (m_time == 1100)
+	//{
+	//	CObjSinEnemy* obj;
+	//	for (int i = 0; i < 15; i++)
+	//	{
+	//		obj = new CObjSinEnemy(799, i * 32 + 64);
+	//		Objs::InsertObj(obj, OBJ_SIN_ENEMY, 50);
+	//	}
+	//}
+	//else if (m_time == 1200)
+	//{
+	//	CObjSinEnemy* obj;
+	//	for (int i = 0; i < 15; i++)
+	//	{
+	//		obj = new CObjSinEnemy(799, i * 32);
+	//		Objs::InsertObj(obj, OBJ_SIN_ENEMY, 50);
+	//	}
+	//}
+	//else if (m_time == 1300)
+	//{
+	//	CObjSinEnemy* obj;
+	//	for (int i = 0; i < 15; i++)
+	//	{
+	//		obj = new CObjSinEnemy(799, i * 32);
+	//		Objs::InsertObj(obj, OBJ_SIN_ENEMY, 50);
+	//	}
 //
 //		CObjDiffusionEnemy* obj2;
 //		obj2 = new CObjDiffusionEnemy(799, 300);
 //		Objs::InsertObj(obj2, OBJ_DIFFUSION_ENEMY, 50);
-	}
+	//}
 //	else if (m_time == 1500)
 //	{
 //		CObjHomingEnemy* obj;

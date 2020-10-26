@@ -34,9 +34,6 @@
     <Filter Include="ソース ファイル\主人公機">
       <UniqueIdentifier>{48473c5f-3835-4303-acdc-7ff075f85585}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\敵機">
-      <UniqueIdentifier>{576957ee-a008-49c2-b49d-2beffd5c2db1}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameHead.h">
@@ -774,19 +771,16 @@
     <ClInclude Include="main.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="GameL\Audio.h">
+    <ClInclude Include="ObjEnemy.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="GameL\DirectXDevice.h">
+    <ClInclude Include="ObjAttackEnemy.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="GameL\DrawFont.h">
+    <ClInclude Include="CObjSinEnemy.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="GameL\DrawTexture.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="GameL\HitBoxManager.h">
+    <ClInclude Include="CObjBulletEnemy.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
     <ClInclude Include="GameL\MultiThread.h">
@@ -807,11 +801,26 @@
     <ClInclude Include="GameL\WinInputs.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="GameL\Audio.h">
+      <Filter>ソース ファイル\リソース</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DirectXDevice.h">
+      <Filter>ソース ファイル\リソース</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawFont.h">
+      <Filter>ソース ファイル\リソース</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawTexture.h">
+      <Filter>ソース ファイル\リソース</Filter>
+    </ClInclude>
     <ClInclude Include="GameHead.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\HitBoxManager.h">
+      <Filter>ソース ファイル\リソース</Filter>
     </ClInclude>
     <ClInclude Include="main.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\ヘッダー</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -845,28 +854,16 @@
     <ClCompile Include="SceneGameOver.cpp">
       <Filter>ソース ファイル\ゲームオーバー画面</Filter>
     </ClCompile>
-    <ClCompile Include="ObjHero.cpp">
-      <Filter>ソース ファイル\主人公機</Filter>
-    </ClCompile>
-    <ClCompile Include="GameL\Audio.cpp">
+    <ClCompile Include="ObjEnemy.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="GameL\DirectXDevice.cpp">
+    <ClCompile Include="ObjAttackEnemy.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="GameL\Draw2DTex_Source.cpp">
+    <ClCompile Include="CObjSinEnemy.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="GameL\DrawFont.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="GameL\DrawTexture.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="GameL\GameL_Main.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="GameL\HitBoxManager.cpp">
+    <ClCompile Include="CObjBulletEnemy.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="GameL\MultiThread.cpp">
@@ -886,6 +883,27 @@
     </ClCompile>
     <ClCompile Include="GameL\WinInputs.cpp">
       <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\Audio.cpp">
+      <Filter>ソース ファイル\リソース</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\DirectXDevice.cpp">
+      <Filter>ソース ファイル\リソース</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\Draw2DTex_Source.cpp">
+      <Filter>ソース ファイル\リソース</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\DrawFont.cpp">
+      <Filter>ソース ファイル\リソース</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\DrawTexture.cpp">
+      <Filter>ソース ファイル\リソース</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\HitBoxManager.cpp">
+      <Filter>ソース ファイル\リソース</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\GameL_Main.cpp">
+      <Filter>ソース ファイル\リソース</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
