@@ -163,7 +163,6 @@
     <ClInclude Include="ObjEnemyBoss.h" />
     <ClInclude Include="ObjHero.h" />
     <ClInclude Include="ObjGameOver.h" />
-   
     <ClInclude Include="ObjSceneMain.h" />
     <ClInclude Include="ObjTitle.h" />
     <ClInclude Include="Objwin.h" />
@@ -176,11 +175,6 @@
     <ClInclude Include="winscene.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CObjAngleBullet.cpp" />
-    <ClCompile Include="ObjAttackEnemy.cpp" />
-    <ClCompile Include="CObjBullet.cpp" />
-    <ClCompile Include="CObjBulletEnemy.cpp" />
-    <ClCompile Include="CObjSinEnemy.cpp" />
     <ClCompile Include="GameL\Audio.cpp" />
     <ClCompile Include="GameL\DirectXDevice.cpp" />
     <ClCompile Include="GameL\Draw2DTex_Source.cpp" />
@@ -196,11 +190,7 @@
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="ObjClearBack.cpp" />
     <ClCompile Include="ObjClearVirus.cpp" />
-    <ClCompile Include="ObjEnemy.cpp" />
-    <ClCompile Include="ObjEnemyBoss.cpp" />
-    <ClCompile Include="ObjHero.cpp" />
     <ClCompile Include="ObjGameOver.cpp" />
-   
     <ClCompile Include="ObjSceneMain.cpp" />
     <ClCompile Include="ObjTitle.cpp" />
     <ClCompile Include="Objwin.cpp" />
@@ -209,7 +199,6 @@
     <ClCompile Include="SceneTitle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="UtilityModule.cpp" />
     <ClCompile Include="winscene.cpp" />
   </ItemGroup>
   <ItemGroup>
