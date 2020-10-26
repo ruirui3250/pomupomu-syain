@@ -2,7 +2,7 @@
 #include "GameL\DrawTexture.h"
 #include "GameL\HitBoxManager.h"
 #include "GameHead.h"
-#include "CObjBullteEnemy.h"
+#include "CObjBulletEnemy.h"
 #include"UtilityModule.h"
 
 //使用するネーム
@@ -39,7 +39,7 @@ void CObjBulletEnemy::Init()
 void CObjBulletEnemy::Action()
 {
 	//Resourcesの描画物RECT
-	m_eff = GetBulletEffec(&m_ani, &m_ani_time, m_del, 2);
+	m_eff = GetBulletEffect (&m_ani, &m_ani_time, m_del, 2);
 
 	//弾丸消滅処理
 	if (m_del == true)
