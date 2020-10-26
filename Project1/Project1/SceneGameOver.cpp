@@ -4,10 +4,8 @@
 //GameLで使用するヘッダー
 #include "GameL\SceneObjManager.h"
 #include "GameL\DrawFont.h"
-#include "GameL\Audio.h"
 //使用ヘッダー
 #include "SceneGameOver.h"
-#include "ObjGameOver.h"
 #include "GameHead.h"
 //コンストラクタ
 CSceneGameOver::CSceneGameOver()
