@@ -34,6 +34,9 @@
     <Filter Include="ソース ファイル\主人公機">
       <UniqueIdentifier>{48473c5f-3835-4303-acdc-7ff075f85585}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\敵機">
+      <UniqueIdentifier>{576957ee-a008-49c2-b49d-2beffd5c2db1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameL\Audio.h">

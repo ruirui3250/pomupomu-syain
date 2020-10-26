@@ -160,14 +160,14 @@ void CSceneMain::Scene()
 //		obj = new CObjHomingEnemy(799, 500);
 //		Objs::InsertObj(obj, OBJ_HOMING_ENEMY, 50);
 //	}
-	else if (m_time == 2000)
-	{
+	//else if (m_time == 2000)
+	//{
 		//音楽チェンジ
 		//Audio::Stop(0);//0曲ストップ
 		//Audio::Start(1);//1曲目スタート
 
-		CObjBoss* obj;
-		obj = new CObjBoss(300, 100);
-		Objs::InsertObj(obj, OBJ_BOSS_ENEMY, 50);
-	}
+		//CObjBoss* obj;
+		//obj = new CObjBoss(300, 100);
+		//Objs::InsertObj(obj, OBJ_BOSS_ENEMY, 50);
+	//}
 }
