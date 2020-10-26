@@ -153,7 +153,7 @@ void CSceneMain::Scene()
 //		CObjDiffusionEnemy* obj2;
 //		obj2 = new CObjDiffusionEnemy(799, 300);
 //		Objs::InsertObj(obj2, OBJ_DIFFUSION_ENEMY, 50);
-	}
+	//}
 //	else if (m_time == 1500)
 //	{
 //		CObjHomingEnemy* obj;
