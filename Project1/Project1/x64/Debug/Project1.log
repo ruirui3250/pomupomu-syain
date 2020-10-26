@@ -1,1 +1,130 @@
-﻿  Project1.vcxproj -> C:\Users\GA1A\source\repos\pomupomu-syain\Project1\x64\Debug\Project1.exe
+﻿  CObjBulletEnemy.cpp
+C:\Users\GA1A\Desktop\game\Project1\Project1\CObjBulletEnemy.cpp(5,10): fatal error C1083: include ファイルを開けません。'CObjBullteEnemy.h':No such file or directory
+  CObjSinEnemy.cpp
+C:\Users\GA1A\Desktop\game\Project1\Project1\CObjSinEnemy.cpp(7,9): fatal error C1083: include ファイルを開けません。'UtilityModule.h':No such file or directory
+  Audio.cpp
+C:\Users\GA1A\Desktop\game\Project1\Project1\GameL\Audio.cpp(357,60): warning C4267: '初期化中': 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+C:\Users\GA1A\Desktop\game\Project1\Project1\GameL\Audio.cpp(357,60): warning C4267: '初期化中': 'size_t' から 'const unsigned int' に変換しました。データが失われているかもしれません。
+  DirectXDevice.cpp
+  Draw2DTex_Source.cpp
+  DrawFont.cpp
+  DrawTexture.cpp
+  GameL_Main.cpp
+  HitBoxManager.cpp
+C:\Users\GA1A\Desktop\game\Project1\Project1\GameL\HitBoxManager.cpp(348,11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\GA1A\Desktop\game\Project1\Project1\GameL\HitBoxManager.cpp(357,15): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  MultiThread.cpp
+  SceneManager.cpp
+  SceneObjManager.cpp
+  SetWindow.cpp
+  UserData.cpp
+  WinInputs.cpp
+  ObjAttackEnemy.cpp
+C:\Users\GA1A\Desktop\game\Project1\Project1\ObjAttackEnemy.cpp(6,9): fatal error C1083: include ファイルを開けません。'UtilityModule.h':No such file or directory
+  ObjClearBack.cpp
+  ObjClearVirus.cpp
+  ObjEnemy.cpp
+C:\Users\GA1A\Desktop\game\Project1\Project1\ObjEnemy.cpp(6,9): fatal error C1083: include ファイルを開けません。'UtilityModule.h':No such file or directory
+  ObjGameOver.cpp
+C:\Users\GA1A\Desktop\game\Project1\Project1\ObjGameOver.cpp(42,9): warning C4101: 'dst': ローカル変数は 1 度も使われていません。
+  コードを生成中...
+  コンパイル中...
+  ObjSceneMain.cpp
+  ObjTitle.cpp
+  Objwin.cpp
+  SceneGameOver.cpp
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneGameOver.cpp(24,2): error C2065: 'CObjGameOver': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneGameOver.cpp(24,16): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneGameOver.cpp(24,38): error C2061: 構文エラー: 識別子 'CObjGameOver'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneGameOver.cpp(25,18): error C2065: 'obj': 定義されていない識別子です。
+  SceneMain.cpp
+C:\Users\GA1A\Desktop\game\Project1\Project1\GameL\DrawTexture.h(4,1): warning C4005: '_SECURE_SCL': マクロが再定義されました。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(2): message : '_SECURE_SCL' の以前の定義を確認してください
+C:\Users\GA1A\Desktop\game\Project1\Project1\GameL\DrawTexture.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(39,2): error C2065: 'CObjHero': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(39,11): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(39,27): error C2061: 構文エラー: 識別子 'CObjHero'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(40,18): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(58,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(58,14): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(58,33): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(59,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(63,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(63,14): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(63,33): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(64,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(68,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(68,14): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(68,33): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(69,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(73,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(73,14): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(74,3): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(74,22): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(75,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(76,3): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(76,22): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(77,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(81,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(81,14): error C2065: 'obj1': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(82,3): error C2065: 'obj1': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(82,23): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(83,19): error C2065: 'obj1': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(85,3): error C2065: 'CObjAttackEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(85,20): error C2065: 'obj2': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(86,3): error C2065: 'obj2': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(86,29): error C2061: 構文エラー: 識別子 'CObjAttackEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(87,19): error C2065: 'obj2': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(92,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(92,14): error C2065: 'obj1': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(93,3): error C2065: 'obj1': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(93,23): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(94,19): error C2065: 'obj1': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(96,3): error C2065: 'CObjAttackEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(96,20): error C2065: 'obj2': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(97,3): error C2065: 'obj2': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(97,29): error C2061: 構文エラー: 識別子 'CObjAttackEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(98,19): error C2065: 'obj2': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(103,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(103,14): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(104,3): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(104,22): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(105,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(106,3): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(106,22): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(107,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(108,3): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(108,22): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(109,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(113,3): error C2065: 'CObjAttackEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(113,20): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(114,3): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(114,28): error C2061: 構文エラー: 識別子 'CObjAttackEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(115,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(119,3): error C2065: 'CObjSinEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(119,17): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(122,4): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(122,26): error C2061: 構文エラー: 識別子 'CObjSinEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(123,20): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(128,3): error C2065: 'CObjSinEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(128,17): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(131,4): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(131,26): error C2061: 構文エラー: 識別子 'CObjSinEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(132,20): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(137,3): error C2065: 'CObjSinEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(137,17): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(140,4): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(140,26): error C2061: 構文エラー: 識別子 'CObjSinEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(141,20): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(146,3): error C2065: 'CObjSinEnemy': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(146,17): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(149,4): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(149,26): error C2061: 構文エラー: 識別子 'CObjSinEnemy'
+C:\Users\GA1A\Desktop\game\Project1\Project1\SceneMain.cpp(150,20): error C2065: 'obj': 定義されていない識別子です。
+  winscene.cpp
+C:\Users\GA1A\Desktop\game\Project1\Project1\GameL\SceneObjManager.h(4,1): warning C4005: '_SECURE_SCL': マクロが再定義されました。
+C:\Users\GA1A\Desktop\game\Project1\Project1\winscene.cpp(2): message : '_SECURE_SCL' の以前の定義を確認してください
+C:\Users\GA1A\Desktop\game\Project1\Project1\GameL\SceneObjManager.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
+C:\Users\GA1A\Desktop\game\Project1\Project1\winscene.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
+  コードを生成中...
