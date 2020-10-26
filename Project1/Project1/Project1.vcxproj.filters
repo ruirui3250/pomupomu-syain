@@ -911,5 +911,8 @@
     <ClCompile Include="UtilityModule.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="ObjHero.cpp">
+      <Filter>ソース ファイル\主人公機</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

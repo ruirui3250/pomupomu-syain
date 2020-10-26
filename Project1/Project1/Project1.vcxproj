@@ -192,6 +192,7 @@
     <ClCompile Include="ObjClearVirus.cpp" />
     <ClCompile Include="ObjEnemy.cpp" />
     <ClCompile Include="ObjGameOver.cpp" />
+    <ClCompile Include="ObjHero.cpp" />
     <ClCompile Include="ObjSceneMain.cpp" />
     <ClCompile Include="ObjTitle.cpp" />
     <ClCompile Include="Objwin.cpp" />
