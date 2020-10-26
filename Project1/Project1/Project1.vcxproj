@@ -154,7 +154,7 @@
     <ClInclude Include="main.h" />
     <ClInclude Include="ObjClearBack.h" />
     <ClInclude Include="ObjClearVirus.h" />
-    <ClInclude Include="ObjGemeOver.h" />
+    <ClInclude Include="ObjGameOver.h" />
     <ClInclude Include="ObjHero.h" />
     <ClInclude Include="ObjSceneMain.h" />
     <ClInclude Include="ObjTitle.h" />

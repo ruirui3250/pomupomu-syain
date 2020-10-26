@@ -4,7 +4,7 @@
 #include	"GameL\SceneManager.h"
 #include	"GameHead.h"
 #include	"ObjGameOver.h"
-#include	"GameL\DrawTexture.h
+#include	"GameL\DrawTexture.h"
 
 
 //使用するネームスペース
