@@ -21,7 +21,7 @@ CSceneGameOver::~CSceneGameOver()
 void CSceneGameOver::InitScene()
 {
 	//	ゲームオーバーオブジェクト作成
-	CObjGameOver* obj = new CObjGameOver();
+	GameOver* obj = new CObjGameOver();
 	Objs::InsertObj(obj, OBJ_GAME_OVER, 10);
 }
 //ゲームメイン実行中メソッド

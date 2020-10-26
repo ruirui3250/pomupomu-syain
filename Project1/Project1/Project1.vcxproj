@@ -139,10 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CObjAngleBullet.h" />
-    <ClInclude Include="CObjBullet.h" />
-    <ClInclude Include="CObjBulletEnemy.h" />
-    <ClInclude Include="CObjSinEnemy.h" />
     <ClInclude Include="GameHead.h" />
     <ClInclude Include="GameL\Audio.h" />
     <ClInclude Include="GameL\DirectXDevice.h" />
@@ -156,11 +152,8 @@
     <ClInclude Include="GameL\UserData.h" />
     <ClInclude Include="GameL\WinInputs.h" />
     <ClInclude Include="main.h" />
-    <ClInclude Include="ObjAttackEnemy.h" />
     <ClInclude Include="ObjClearBack.h" />
     <ClInclude Include="ObjClearVirus.h" />
-    <ClInclude Include="ObjEnemy.h" />
-    <ClInclude Include="ObjEnemyBoss.h" />
     <ClInclude Include="ObjHero.h" />
     <ClInclude Include="ObjGameOver.h" />
     <ClInclude Include="ObjSceneMain.h" />
@@ -171,7 +164,6 @@
     <ClInclude Include="SceneTitle.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="UtilityModule.h" />
     <ClInclude Include="winscene.h" />
   </ItemGroup>
   <ItemGroup>
@@ -191,6 +183,7 @@
     <ClCompile Include="ObjClearBack.cpp" />
     <ClCompile Include="ObjClearVirus.cpp" />
     <ClCompile Include="ObjGameOver.cpp" />
+    <ClCompile Include="ObjHero.cpp" />
     <ClCompile Include="ObjSceneMain.cpp" />
     <ClCompile Include="ObjTitle.cpp" />
     <ClCompile Include="Objwin.cpp" />
@@ -200,22 +193,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="winscene.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="GameHead.h" />
-    <ClInclude Include="GameL\Audio.h" />
-    <ClInclude Include="GameL\DirectXDevice.h" />
-    <ClInclude Include="GameL\DrawFont.h" />
-    <ClInclude Include="GameL\DrawTexture.h" />
-    <ClInclude Include="GameL\GameHead.h" />
-    <ClInclude Include="GameL\HitBoxManager.h" />
-    <ClInclude Include="GameL\MultiThread.h" />
-    <ClInclude Include="GameL\SceneManager.h" />
-    <ClInclude Include="GameL\SceneObjManager.h" />
-    <ClInclude Include="GameL\SetWindow.h" />
-    <ClInclude Include="GameL\UserData.h" />
-    <ClInclude Include="GameL\WinInputs.h" />
-    <ClInclude Include="main.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

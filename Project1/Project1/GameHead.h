@@ -6,21 +6,6 @@ enum OBJ_NAME
 	OBJ_NO_NAME,	//オブジェクト名無し(禁止)
 	//ゲームで使うオブジェクトの名前
 	//OBJ_○○と表記
-	OBJ_WIN,
-	OBJ_CLEAR_BACK,
-	OBJ_CLEAR_VIRUS,
-	OBJ_TITLE,
-	OBJ_GAME_OVER,
-	OBJ_HERO,
-	OBJ_SCENE_MAIN,
-	OBJ_BULLET,
-	OBJ_ENEMY,
-	OBJ_ATTACK_ENEMY,
-	OBJ_BULLET_ENEMY,
-	OBJ_SIN_ENEMY,
-	OBJ_HERO,
-	OBJ_BOSS_ENEMY,
-
 };
 //------------------------------------------------
 
@@ -64,21 +49,13 @@ struct UserData
 //------------------------------------------------
 
 //ゲームシーンオブジェクトヘッダ------------------
-#include "Objwin.h"
-#include "ObjClearBack.h"
-#include"ObjClearVirus.h"
-#include"ObjTitle.h"
-#include"ObjSceneMain.h"
+
 //------------------------------------------------
 
 //ゲームシーンクラスヘッダ------------------------
-#include"winscene.h"
-#include"SceneTitle.h"
-#include"SceneMain.h"
-#include"SceneGameOver.h"
 //-----------------------------------------------
 
 //シーンスタートクラス---------------------------
 //ゲーム開始時のシーンクラス登録
-#define SET_GAME_START CSceneTitle
+#define SET_GAME_START CSceneWin  
 //-----------------------------------------------
