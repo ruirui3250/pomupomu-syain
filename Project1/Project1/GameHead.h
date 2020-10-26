@@ -11,6 +11,14 @@ enum OBJ_NAME
 	OBJ_CLEAR_VIRUS,
 	OBJ_TITLE,
 	OBJ_SCENE_MAIN,
+	OBJ_BULLET,
+	OBJ_ENEMY,
+	OBJ_ATTACK_ENEMY,
+	OBJ_BULLET_ENEMY,
+	OBJ_SIN_ENEMY,
+	OBJ_HERO,
+	OBJ_BOSS_ENEMY,
+
 };
 //------------------------------------------------
 
@@ -59,6 +67,14 @@ struct UserData
 #include"ObjClearVirus.h"
 #include"ObjTitle.h"
 #include"ObjSceneMain.h"
+#include "CObjBullet.h"
+#include "ObjEnemy.h"
+#include "ObjAttackEnemy.h"
+#include "CObjBulletEnemy.h"
+#include "CObjSinEnemy.h"
+
+#include "ObjHero.h"
+#include "ObjEnemyBoss.h"
 //------------------------------------------------
 
 //ゲームシーンクラスヘッダ------------------------

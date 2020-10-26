@@ -1,2 +1,50 @@
-﻿  ObjSceneMain.cpp
-  Project1.vcxproj -> C:\Users\souhu\Desktop\game\Project1\x64\Debug\Project1.exe
+﻿  ObjAttackEnemy.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,22): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,8): error C2146: 構文エラー: ';' が、識別子 'GetBulletEffec' の前に必要です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjBullet.h(26,9): error C2872: 'RECT_F': あいまいなシンボルです。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,1): message : 'int RECT_F' である可能性があります。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(29,9): message : または 'GameL::RECT_F'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjBullet.h(26,14): error C3646: 'm_eff': 不明なオーバーライド指定子です
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjBullet.h(26,14): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjBulletEnemy.h(26,12): error C2872: 'RECT_F': あいまいなシンボルです。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,1): message : 'int RECT_F' である可能性があります。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(29,9): message : または 'GameL::RECT_F'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjBulletEnemy.h(26,17): error C3646: 'm_eff': 不明なオーバーライド指定子です
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjBulletEnemy.h(26,17): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(52,10): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(99,9): error C2872: 'RECT_F': あいまいなシンボルです。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,1): message : 'int RECT_F' である可能性があります。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(29,9): message : または 'GameL::RECT_F'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(99,12): error C2872: 'RECT_F': あいまいなシンボルです。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,1): message : 'int RECT_F' である可能性があります。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(29,9): message : または 'GameL::RECT_F'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(99,9): error C2146: 構文エラー: ';' が、識別子 'src' の前に必要です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(99,9): error C2065: 'src': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(100,9): error C2872: 'RECT_F': あいまいなシンボルです。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,1): message : 'int RECT_F' である可能性があります。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(29,9): message : または 'GameL::RECT_F'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(100,12): error C2872: 'RECT_F': あいまいなシンボルです。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,1): message : 'int RECT_F' である可能性があります。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(29,9): message : または 'GameL::RECT_F'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(100,9): error C2146: 構文エラー: ';' が、識別子 'dst' の前に必要です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(100,9): error C2065: 'dst': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(103,2): error C2065: 'src': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(104,2): error C2065: 'src': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(105,2): error C2065: 'src': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(106,2): error C2065: 'src': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(109,2): error C2065: 'dst': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(110,2): error C2065: 'dst': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(111,2): error C2065: 'dst': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(112,2): error C2065: 'dst': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(115,17): error C2065: 'src': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(115,23): error C2065: 'dst': 定義されていない識別子です。
+  SceneMain.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(4,1): warning C4005: '_SECURE_SCL': マクロが再定義されました。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(2): message : '_SECURE_SCL' の以前の定義を確認してください
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(122,34): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(131,39): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(140,34): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(149,34): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  コードを生成中...
