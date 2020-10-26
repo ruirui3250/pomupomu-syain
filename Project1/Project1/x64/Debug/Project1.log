@@ -1,50 +1,135 @@
-﻿  ObjAttackEnemy.cpp
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,22): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,8): error C2146: 構文エラー: ';' が、識別子 'GetBulletEffec' の前に必要です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjBullet.h(26,9): error C2872: 'RECT_F': あいまいなシンボルです。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,1): message : 'int RECT_F' である可能性があります。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(29,9): message : または 'GameL::RECT_F'
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjBullet.h(26,14): error C3646: 'm_eff': 不明なオーバーライド指定子です
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjBullet.h(26,14): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjBulletEnemy.h(26,12): error C2872: 'RECT_F': あいまいなシンボルです。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,1): message : 'int RECT_F' である可能性があります。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(29,9): message : または 'GameL::RECT_F'
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjBulletEnemy.h(26,17): error C3646: 'm_eff': 不明なオーバーライド指定子です
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjBulletEnemy.h(26,17): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(52,10): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(99,9): error C2872: 'RECT_F': あいまいなシンボルです。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,1): message : 'int RECT_F' である可能性があります。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(29,9): message : または 'GameL::RECT_F'
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(99,12): error C2872: 'RECT_F': あいまいなシンボルです。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,1): message : 'int RECT_F' である可能性があります。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(29,9): message : または 'GameL::RECT_F'
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(99,9): error C2146: 構文エラー: ';' が、識別子 'src' の前に必要です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(99,9): error C2065: 'src': 定義されていない識別子です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(100,9): error C2872: 'RECT_F': あいまいなシンボルです。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,1): message : 'int RECT_F' である可能性があります。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(29,9): message : または 'GameL::RECT_F'
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(100,12): error C2872: 'RECT_F': あいまいなシンボルです。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\UtilityModule.h(9,1): message : 'int RECT_F' である可能性があります。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(29,9): message : または 'GameL::RECT_F'
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(100,9): error C2146: 構文エラー: ';' が、識別子 'dst' の前に必要です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(100,9): error C2065: 'dst': 定義されていない識別子です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(103,2): error C2065: 'src': 定義されていない識別子です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(104,2): error C2065: 'src': 定義されていない識別子です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(105,2): error C2065: 'src': 定義されていない識別子です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(106,2): error C2065: 'src': 定義されていない識別子です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(109,2): error C2065: 'dst': 定義されていない識別子です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(110,2): error C2065: 'dst': 定義されていない識別子です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(111,2): error C2065: 'dst': 定義されていない識別子です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(112,2): error C2065: 'dst': 定義されていない識別子です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(115,17): error C2065: 'src': 定義されていない識別子です。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(115,23): error C2065: 'dst': 定義されていない識別子です。
+﻿  CObjBulletEnemy.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjBulletEnemy.cpp(5,10): fatal error C1083: include ファイルを開けません。'CObjBullteEnemy.h':No such file or directory
+  CObjSinEnemy.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\CObjSinEnemy.cpp(7,9): fatal error C1083: include ファイルを開けません。'UtilityModule.h':No such file or directory
+  GameL_Main.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
+  ObjAttackEnemy.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjAttackEnemy.cpp(6,9): fatal error C1083: include ファイルを開けません。'UtilityModule.h':No such file or directory
+  ObjClearBack.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
+  ObjClearVirus.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
+  ObjEnemy.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\ObjEnemy.cpp(6,9): fatal error C1083: include ファイルを開けません。'UtilityModule.h':No such file or directory
+  ObjGameOver.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
+  ObjSceneMain.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
+  ObjTitle.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
+  Objwin.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
+  SceneGameOver.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
   SceneMain.cpp
 C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(4,1): warning C4005: '_SECURE_SCL': マクロが再定義されました。
 C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(2): message : '_SECURE_SCL' の以前の定義を確認してください
 C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\DrawTexture.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
 C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(122,34): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(131,39): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(140,34): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(149,34): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(39,2): error C2065: 'CObjHero': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(39,11): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(39,27): error C2061: 構文エラー: 識別子 'CObjHero'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(40,18): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(58,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(58,14): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(58,33): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(59,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(63,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(63,14): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(63,33): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(64,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(68,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(68,14): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(68,33): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(69,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(73,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(73,14): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(74,3): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(74,22): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(75,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(76,3): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(76,22): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(77,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(81,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(81,14): error C2065: 'obj1': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(82,3): error C2065: 'obj1': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(82,23): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(83,19): error C2065: 'obj1': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(85,3): error C2065: 'CObjAttackEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(85,20): error C2065: 'obj2': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(86,3): error C2065: 'obj2': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(86,29): error C2061: 構文エラー: 識別子 'CObjAttackEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(87,19): error C2065: 'obj2': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(92,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(92,14): error C2065: 'obj1': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(93,3): error C2065: 'obj1': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(93,23): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(94,19): error C2065: 'obj1': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(96,3): error C2065: 'CObjAttackEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(96,20): error C2065: 'obj2': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(97,3): error C2065: 'obj2': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(97,29): error C2061: 構文エラー: 識別子 'CObjAttackEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(98,19): error C2065: 'obj2': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(103,3): error C2065: 'CObjEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(103,14): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(104,3): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(104,22): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(105,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(106,3): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(106,22): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(107,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(108,3): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(108,22): error C2061: 構文エラー: 識別子 'CObjEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(109,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(113,3): error C2065: 'CObjAttackEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(113,20): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(114,3): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(114,28): error C2061: 構文エラー: 識別子 'CObjAttackEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(115,19): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(119,3): error C2065: 'CObjSinEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(119,17): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(122,4): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(122,26): error C2061: 構文エラー: 識別子 'CObjSinEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(123,20): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(128,3): error C2065: 'CObjSinEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(128,17): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(131,4): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(131,26): error C2061: 構文エラー: 識別子 'CObjSinEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(132,20): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(137,3): error C2065: 'CObjSinEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(137,17): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(140,4): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(140,26): error C2061: 構文エラー: 識別子 'CObjSinEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(141,20): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(146,3): error C2065: 'CObjSinEnemy': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(146,17): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(149,4): error C2065: 'obj': 定義されていない識別子です。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(149,26): error C2061: 構文エラー: 識別子 'CObjSinEnemy'
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\SceneMain.cpp(150,20): error C2065: 'obj': 定義されていない識別子です。
+  winscene.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\SceneObjManager.h(4,1): warning C4005: '_SECURE_SCL': マクロが再定義されました。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\winscene.cpp(2): message : '_SECURE_SCL' の以前の定義を確認してください
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameL\SceneObjManager.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\winscene.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(21,2): error C2365: 'OBJ_HERO': 再定義; 以前の定義は '列挙子' でした。
+C:\Users\GA1A\source\repos\pomupomu-syain3\Project1\Project1\GameHead.h(14): message : 'OBJ_HERO' の宣言を確認してください
   コードを生成中...
