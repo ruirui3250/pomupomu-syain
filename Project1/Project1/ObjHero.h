@@ -1,10 +1,10 @@
 #pragma once
-
-#include "GameL\SceneObjManager.h"
-
+//使用するヘッダー
+#include"GameL\SceneObjManager.h"
+//使用するネームスペース
 using namespace GameL;
-
-class CObjHero : public CObj
+//オブジェクト：主人公
+class CObjHero :public CObj
 {
 public:
 	CObjHero() {};
@@ -12,6 +12,4 @@ public:
 	void Init();
 	void Action();
 	void Draw();
-private:
-
 };

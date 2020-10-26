@@ -36,8 +36,8 @@ void CSceneMain::InitScene()
 	Draw::LoadImage(L"BossBack.png",2,TEX_SIZE_512);
 
 	//主人公オブジェクト作成
-	//CObjHero*=obj=new CObjHero();//主人公オブジェクト作成
-	//Objs::InsertObj(obj,OBJ_HERO,1);//主人公オブジェクトマネージャーを登録
+	CObjHero*obj=new CObjHero();//主人公オブジェクト作成
+	Objs::InsertObj(obj,OBJ_HERO,1);//主人公オブジェクトマネージャーを登録
 
 		//クリア時背景オブジェクト作成
 	CObjSceneMain* back = new CObjSceneMain();
