@@ -10,6 +10,8 @@ enum OBJ_NAME
 	OBJ_CLEAR_BACK,
 	OBJ_CLEAR_VIRUS,
 	OBJ_TITLE,
+	OBJ_GAMEOVER,
+	OBJ_HERO,
 	OBJ_SCENE_MAIN,
 };
 //------------------------------------------------
@@ -59,12 +61,15 @@ struct UserData
 #include"ObjClearVirus.h"
 #include"ObjTitle.h"
 #include"ObjSceneMain.h"
+#include"ObjHero.h"
+#include"ObjGameOver.h"
 //------------------------------------------------
 
 //ゲームシーンクラスヘッダ------------------------
 #include"winscene.h"
 #include"SceneTitle.h"
 #include"SceneMain.h"
+#include"ObjGameOver.h"
 //-----------------------------------------------
 
 //シーンスタートクラス---------------------------

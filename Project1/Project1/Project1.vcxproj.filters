@@ -28,8 +28,11 @@
     <Filter Include="ソース ファイル\背景画面">
       <UniqueIdentifier>{748b800c-29ad-4491-89c5-c2a84f7d5686}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\自機">
+    <Filter Include="ソース ファイル\ゲームオーバー画面">
       <UniqueIdentifier>{60c65ccf-26f4-4f34-8664-53d7089e9cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\主人公機">
+      <UniqueIdentifier>{48473c5f-3835-4303-acdc-7ff075f85585}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -645,6 +648,93 @@
     <ClInclude Include="main.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="GameHead.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\Audio.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DirectXDevice.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawFont.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawTexture.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\HitBoxManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\MultiThread.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SceneManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SceneObjManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SetWindow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\UserData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\WinInputs.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjGemeOver.h">
+      <Filter>ソース ファイル\ゲームオーバー画面</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHead.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\Audio.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DirectXDevice.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawFont.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawTexture.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\HitBoxManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\MultiThread.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SceneManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SceneObjManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SetWindow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\UserData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\WinInputs.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameOver.h">
+      <Filter>ソース ファイル\ゲームオーバー画面</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjHero.h">
+      <Filter>ソース ファイル\主人公機</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp">
@@ -711,7 +801,13 @@
       <Filter>ソース ファイル\背景画面</Filter>
     </ClCompile>
     <ClCompile Include="ObjGameOver.cpp">
-      <Filter>ソース ファイル\自機</Filter>
+      <Filter>ソース ファイル\ゲームオーバー画面</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameOver.cpp">
+      <Filter>ソース ファイル\ゲームオーバー画面</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjHero.cpp">
+      <Filter>ソース ファイル\主人公機</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
