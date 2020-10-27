@@ -34,8 +34,8 @@
     <Filter Include="ソース ファイル\主人公機">
       <UniqueIdentifier>{48473c5f-3835-4303-acdc-7ff075f85585}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\test">
-      <UniqueIdentifier>{322d3ae4-1cff-4822-ae11-6d709a05c7bf}</UniqueIdentifier>
+    <Filter Include="ソース ファイル\あああ">
+      <UniqueIdentifier>{424c3f17-83a8-4a68-bdb7-67cdc88a429f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -828,6 +828,9 @@
     <ClInclude Include="UtilityModule.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="ObjBullet.h">
+      <Filter>ソース ファイル\主人公機</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Objwin.cpp">
@@ -915,6 +918,9 @@
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="ObjHero.cpp">
+      <Filter>ソース ファイル\主人公機</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjBullet.cpp">
       <Filter>ソース ファイル\主人公機</Filter>
     </ClCompile>
   </ItemGroup>

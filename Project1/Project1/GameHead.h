@@ -68,6 +68,7 @@ struct UserData
 #include"ObjTitle.h"
 #include"ObjSceneMain.h"
 #include"CObjBulletEnemy.h"
+#include"ObjBullet.h"
 //#include"CObjSinEnemy.h"
 #include"ObjAttackEnemy.h"
 #include"ObjClearBack.h"
