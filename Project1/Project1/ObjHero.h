@@ -21,5 +21,5 @@ private:
 	float m_y;//主人公機のy方向の位置変数
 	float m_vx;//主人公機のx方向のベクトル用変数
 	float m_vy;//主人公機のy方向のベクトル用変数
-	float m_posture;
+	bool m_f;
 };
