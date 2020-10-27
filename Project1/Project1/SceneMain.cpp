@@ -28,16 +28,16 @@ CSceneMain::~CSceneMain()
 void CSceneMain::InitScene()
 {
 	//外部グラフィック読み込み0番  背景
-	Draw::LoadImage(L"SceneMain.png",0,TEX_SIZE_512);
+	Draw::LoadImage(L"SceneMain.png",5,TEX_SIZE_512);
 
-	Draw::LoadImage(L"image.png", 1, TEX_SIZE_512);
+	Draw::LoadImage(L"image.png", 0, TEX_SIZE_512);
 
 	//外部グラフィックファイルを読み込み1番に登録 ボスグラフィックを登録
-	Draw::LoadImage(L"BossBack.png",2,TEX_SIZE_512);
+	//Draw::LoadImage(L"BossBack.png",,TEX_SIZE_512);
 
 	//主人公オブジェクト作成
 	CObjHero*obj=new CObjHero();//主人公オブジェクト作成
-	Objs::InsertObj(obj,OBJ_HERO,1);//主人公オブジェクトマネージャーを登録
+	Objs::InsertObj(obj,OBJ_HERO,0);//主人公オブジェクトマネージャーを登録
 
 		//クリア時背景オブジェクト作成
 	CObjSceneMain* back = new CObjSceneMain();
