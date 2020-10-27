@@ -90,5 +90,5 @@ void CObjBulletEnemy::Draw()
 	dst.m_bottom = 32.0f + m_y;
 
 	//0番目に登録したグラフィックを描画。
-	Draw::Draw(1, &m_eff, &dst, c, 180.0f);
+	Draw::Draw(2, &m_eff, &dst, c, 180.0f);
 }
