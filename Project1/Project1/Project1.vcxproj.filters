@@ -917,5 +917,8 @@
     <ClCompile Include="ObjHero.cpp">
       <Filter>ソース ファイル\主人公機</Filter>
     </ClCompile>
+    <ClCompile Include="ObjBullet.cpp">
+      <Filter>ソース ファイル\主人公機</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

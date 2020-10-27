@@ -188,6 +188,7 @@
     <ClCompile Include="GameL\UserData.cpp" />
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="ObjAttackEnemy.cpp" />
+    <ClCompile Include="ObjBullet.cpp" />
     <ClCompile Include="ObjClearBack.cpp" />
     <ClCompile Include="ObjClearVirus.cpp" />
     <ClCompile Include="ObjEnemy.cpp" />
