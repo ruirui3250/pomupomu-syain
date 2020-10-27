@@ -1,2 +1,32 @@
-﻿  ObjHero.cpp
-  Project1.vcxproj -> C:\Users\GA1A\source\repos\pomupomu-syain\Project1\x64\Debug\Project1.exe
+﻿  CObjBulletEnemy.cpp
+  CObjSinEnemy.cpp
+  GameL_Main.cpp
+  ObjAttackEnemy.cpp
+  ObjBullet.cpp
+  ObjClearBack.cpp
+  ObjClearVirus.cpp
+  ObjEnemy.cpp
+  ObjEnemyBoss.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain14\Project1\Project1\ObjEnemyBoss.cpp(79,15): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  ObjGameOver.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain14\Project1\Project1\ObjGameOver.cpp(42,9): warning C4101: 'dst': ローカル変数は 1 度も使われていません。
+  ObjHero.cpp
+  ObjSceneMain.cpp
+  ObjTitle.cpp
+  Objwin.cpp
+  SceneGameOver.cpp
+  SceneMain.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain14\Project1\Project1\GameL\DrawTexture.h(4,1): warning C4005: '_SECURE_SCL': マクロが再定義されました。
+C:\Users\GA1A\source\repos\pomupomu-syain14\Project1\Project1\SceneMain.cpp(2): message : '_SECURE_SCL' の以前の定義を確認してください
+C:\Users\GA1A\source\repos\pomupomu-syain14\Project1\Project1\GameL\DrawTexture.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
+C:\Users\GA1A\source\repos\pomupomu-syain14\Project1\Project1\SceneMain.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
+  winscene.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain14\Project1\Project1\GameL\SceneObjManager.h(4,1): warning C4005: '_SECURE_SCL': マクロが再定義されました。
+C:\Users\GA1A\source\repos\pomupomu-syain14\Project1\Project1\winscene.cpp(2): message : '_SECURE_SCL' の以前の定義を確認してください
+C:\Users\GA1A\source\repos\pomupomu-syain14\Project1\Project1\GameL\SceneObjManager.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
+C:\Users\GA1A\source\repos\pomupomu-syain14\Project1\Project1\winscene.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
+  コードを生成中...
+  SceneTitle.cpp
+C:\Users\GA1A\source\repos\pomupomu-syain14\Project1\Project1\GameL\SceneObjManager.h(5,1): warning C4005: '_HAS_ITERATOR_DEBUGGING': マクロが再定義されました。
+C:\Users\GA1A\source\repos\pomupomu-syain14\Project1\Project1\SceneTitle.cpp(3): message : '_HAS_ITERATOR_DEBUGGING' の以前の定義を確認してください
+  Project1.vcxproj -> C:\Users\GA1A\source\repos\pomupomu-syain14\Project1\x64\Debug\Project1.exe
