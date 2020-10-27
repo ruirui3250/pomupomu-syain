@@ -20,6 +20,8 @@ CSceneGameOver::~CSceneGameOver()
 //初期化メソッド
 void CSceneGameOver::InitScene()
 {
+	//外部グラフィックファイルを読み込み6番目に登録
+	Draw::LoadImage(L"ゲームオーバー画面.png",6,TEX_SIZE_512);
 	//	ゲームオーバーオブジェクト作成
 	CObjGameOver* obj = new CObjGameOver();
 	Objs::InsertObj(obj, OBJ_GAME_OVER, 10);
