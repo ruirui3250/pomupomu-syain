@@ -825,8 +825,8 @@
     <ClInclude Include="UtilityModule.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="Bullet.h">
-      <Filter>ソース ファイル</Filter>
+    <ClInclude Include="ObjBullet.h">
+      <Filter>ソース ファイル\主人公機</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
