@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Bullet.h" />
     <ClInclude Include="CObjBulletEnemy.h" />
     <ClInclude Include="CObjSinEnemy.h" />
     <ClInclude Include="GameHead.h" />
