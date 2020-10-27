@@ -826,7 +826,7 @@
       <Filter>ソース ファイル</Filter>
     </ClInclude>
     <ClInclude Include="Bullet.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\主人公機</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
