@@ -47,7 +47,7 @@ void CObjSceneMain::Draw()
 	dst.m_bottom = 500.0f;
 
 	////‰æ‘œ•\¦
-	Draw::Draw(0, &src, &dst, c, 0.0f);
+	Draw::Draw(5, &src, &dst, c, 0.0f);
 
 	//”wŒi‚P‚ğİ’è•`‰æ
 	dst.m_top = 0.0f;
