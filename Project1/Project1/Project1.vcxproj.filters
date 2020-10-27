@@ -34,6 +34,9 @@
     <Filter Include="ソース ファイル\主人公機">
       <UniqueIdentifier>{48473c5f-3835-4303-acdc-7ff075f85585}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\あああ">
+      <UniqueIdentifier>{424c3f17-83a8-4a68-bdb7-67cdc88a429f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameHead.h">
