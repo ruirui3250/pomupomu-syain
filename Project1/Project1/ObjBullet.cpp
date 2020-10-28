@@ -65,15 +65,15 @@ void CObjBullet::Action()
 		return;
 	}
 
-	//敵機オブジェクトにぶつかったら弾丸削除。
-	if (hit->CheckObjNameHit(OBJ_ENEMY) != nullptr)
-	{
-		this->SetStatus(false); //自身に削除命令
-		Hits::DeleteHitBox(this);//弾丸が所有するHITBOX削除
-	}
+	////敵機オブジェクトにぶつかったら弾丸削除。
+	//if (hit->CheckObjNameHit(OBJ_ENEMY) != nullptr)
+	//{
+	//	this->SetStatus(false); //自身に削除命令
+	//	Hits::DeleteHitBox(this);//弾丸が所有するHITBOX削除
+	//}
 
 	//当たり判定を行うオブジェクト情報部
-	int data_base[6] =
+	int data_base[4] =
 	{
 		OBJ_ENEMY,
 		OBJ_ATTACK_ENEMY,
@@ -83,13 +83,13 @@ void CObjBullet::Action()
 	};
 
 	//オブジェクト情報部に当たり判定を行い。当たれば削除。
-	for (int i = 0; i < 6; i++)
+	for (int i = 0; i < 4; i++)
 	{
 		if (hit->CheckObjNameHit(data_base[i]) != nullptr)
 		{
 			/*Audio::Start(3);*/
-			m_del = true; //消滅実行
-			hit->SetInvincibility(true);//当たり判定無効
+			this->SetStatus(false);
+			Hits::DeleteHitBox(this);
 		}
 	}
 
