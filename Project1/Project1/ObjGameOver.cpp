@@ -22,7 +22,7 @@ void CObjGameOver::Action()
 	{
 		if (m_key_flag == true)
 		{
-			Scene::SetScene(new CSceneMain());
+			Scene::SetScene(new CSceneTitle());
 			m_key_flag = false;
 		}
 	}
@@ -35,17 +35,21 @@ void CObjGameOver::Action()
 //ドロー
 void CObjGameOver::Draw()
 {
-	//描画カラー情報
-	float c[4] = { 1.0f,1.0f,1.0f,1.0f };
-
-	RECT_F src;//描画先切り取り位置
-	RECT_F dst;//描画先表示
-
+	float c[4] = { 1.0f,1.0f, 1.0f, 1.0f, };
+	RECT_F src;//描画元切り取り位置
+	RECT_F dst;//描画先表示位置
 	//切り取り位置の設定
 	src.m_top = 0.0f;
 	src.m_left = 0.0f;
 	src.m_right = 512.0f;
 	src.m_bottom = 512.0f;
+	//表示位置の設定
+	dst.m_top = 0.0f;
+	dst.m_left = 0.0f;
+	dst.m_right = 1000.0f;
+	dst.m_bottom = 600.0f;
+
+	Draw::Draw(0, &src, &dst, c, 0.0f);
 
 
 

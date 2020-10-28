@@ -78,26 +78,14 @@ void CObjHero::Action()
 	//HITboxの内容を更新
 	CHitBox* hit = Hits::GetHitBox(this); //作成したhitBox更新用の入り口を取り出す
 	hit->SetPos(m_x, m_y);				  //入り口から新しい位置（主人公機の位置）情報に置き換える
-	//ELEMENT_ENEMYを持つオブジェクトおよびと接触したら体力を一つ減らす
+	//ELEMENT_ENEMYを持つオブジェクトと接触したら主人公機削除
 	if (hit->CheckElementHit(ELEMENT_ENEMY) == true)
 	{
-		m_hp -= 1;
+		this->SetStatus(false);//自身に削除命令を出す
 		Hits::DeleteHitBox(this);//主人公が所有するHitBoxに代入する
-	}
-	//ELEMENT_ENEMYを持つ弾丸オブジェクトと接触したら体力を一つ減らす
-	if (hit->CheckElementHit(ELEMENT_OBULLET_ENEMY) == true)
-	{
-		m_hp -= 1;
-		Hits::DeleteHitBox(this);//主人公が所有するHitBoxに代入する
-	}
-	//HPが０になったら破棄
-	if (m_hp <= 0)
-	{
-		this->SetStatus(false);
-		Hits::DeleteHitBox(this);
 
+		//主人公機消滅でシーンをゲームオーバーに移行する
 		Scene::SetScene(new CSceneGameOver());
-
 	}
 
 
