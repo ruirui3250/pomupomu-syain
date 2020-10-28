@@ -18,6 +18,7 @@ enum OBJ_NAME
 	OBJ_ATTACK_ENEMY,
 	OBJ_BULLET_ENEMY,
 	/*OBJ_SIN_ENEMY,*/
+	OBJ_BOSS_ENEMY,
 
 };
 //------------------------------------------------
@@ -76,7 +77,7 @@ struct UserData
 #include"ObjSceneMain.h"
 #include"ObjHero.h"
 #include"ObjEnemy.h"
-
+#include "ObjEnemyBoss.h"
 
 //------------------------------------------------
 

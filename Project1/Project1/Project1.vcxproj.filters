@@ -34,6 +34,12 @@
     <Filter Include="ソース ファイル\主人公機">
       <UniqueIdentifier>{48473c5f-3835-4303-acdc-7ff075f85585}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\敵機">
+      <UniqueIdentifier>{3c164882-719c-4e4e-bba9-8e1843381b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ボス">
+      <UniqueIdentifier>{1f5a7e82-345f-457d-bb42-4ee015c44e7e}</UniqueIdentifier>
+    </Filter>
     <Filter Include="ソース ファイル\あああ">
       <UniqueIdentifier>{424c3f17-83a8-4a68-bdb7-67cdc88a429f}</UniqueIdentifier>
     </Filter>
@@ -774,18 +780,6 @@
     <ClInclude Include="main.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="ObjEnemy.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjAttackEnemy.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="CObjSinEnemy.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="CObjBulletEnemy.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="GameL\MultiThread.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
@@ -831,6 +825,21 @@
     <ClInclude Include="ObjBullet.h">
       <Filter>ソース ファイル\主人公機</Filter>
     </ClInclude>
+    <ClInclude Include="CObjBulletEnemy.h">
+      <Filter>ソース ファイル\敵機</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjSinEnemy.h">
+      <Filter>ソース ファイル\敵機</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjAttackEnemy.h">
+      <Filter>ソース ファイル\敵機</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy.h">
+      <Filter>ソース ファイル\敵機</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemyBoss.h">
+      <Filter>ソース ファイル\ボス</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Objwin.cpp">
@@ -862,18 +871,6 @@
     </ClCompile>
     <ClCompile Include="SceneGameOver.cpp">
       <Filter>ソース ファイル\ゲームオーバー画面</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjEnemy.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjAttackEnemy.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="CObjSinEnemy.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="CObjBulletEnemy.cpp">
-      <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="GameL\MultiThread.cpp">
       <Filter>ソース ファイル</Filter>
@@ -922,6 +919,21 @@
     </ClCompile>
     <ClCompile Include="ObjBullet.cpp">
       <Filter>ソース ファイル\主人公機</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjBulletEnemy.cpp">
+      <Filter>ソース ファイル\敵機</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjSinEnemy.cpp">
+      <Filter>ソース ファイル\敵機</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjAttackEnemy.cpp">
+      <Filter>ソース ファイル\敵機</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjEnemy.cpp">
+      <Filter>ソース ファイル\敵機</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjEnemyBoss.cpp">
+      <Filter>ソース ファイル\ボス</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
